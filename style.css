@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.listbox{
+    height: auto;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listbox h1{
+    color: rgb(37, 37, 145);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listbox button{
+    margin-left: 10px;
+    background-color: rgb(37, 37, 145);
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    padding: 4px;
+    cursor: pointer;
+}
+.listbox input{
+    padding: 4px;
+    width: 270px;
+}
+#list{
+    margin-top: 25px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    margin-top: 10px;
+   
+}
+.deleteButton{
+    margin-left: 80px;
+}
+.task taskText{
+    border: 1px solid rgb(85, 84, 84);
+}
+
+
